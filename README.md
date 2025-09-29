@@ -59,20 +59,6 @@ Este endpoint suporta a leitura e a criação de livros.
 GET /livros
 Retorna a lista completa de livros. O formato da resposta depende do cabeçalho Accept enviado na requisição.
 
-Cabeçalho Accept
-
-Formato Retornado
-
-application/json (Padrão)
-
-JSON
-
-application/xml
-
-XML
-
-Exemplo de Teste (HTTPie para XML):
-
 http GET [http://127.0.0.1:5000/livros](http://127.0.0.1:5000/livros) Accept:application/xml
 
 POST /livros
