@@ -89,32 +89,3 @@ Exemplo de Corpo da Requisição (JSON):
 Exemplo de Teste (HTTPie):
 
 http POST [http://127.0.0.1:5000/livros](http://127.0.0.1:5000/livros) titulo="Dom Casmurro" autor="Machado de Assis" ano:=1899
-
-Observação: O uso de := garante que o valor de ano seja enviado como um número inteiro (integer).
-
-📊 Comparação de Formatos (JSON vs. XML)
-Este projeto demonstra a diferença entre os formatos de serialização. Abaixo estão as conclusões da análise:
-
-Característica
-
-JSON
-
-XML
-
-Legibilidade Humana
-
-Alta (Mais legível)
-
-Baixa (Muito verboso)
-
-Tamanho do Arquivo
-
-Compacto e leve
-
-Grande (Devido à repetição de tags)
-
-Preferencia Corporativa
-
-Padrão atual para APIs REST modernas.
-
-Preferido historicamente (e em sistemas legados) devido ao suporte nativo a XSD (Schema Definition), que garante uma validação de dados mais rigorosa.
